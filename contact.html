@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!---------------------------- Main Container ------------------------->
+    <div class="container d-flex justify-content-center align-items-center min-vh-99">
+
+        <div class="row border rounded p-2 bg-light shadow box-area">
+
+            <div
+                class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column contact_left_box left_box insurance_container">
+                <div class="content">
+                    <p class="text-light fs-2 fw-bold">Welcome to Drivee®</p>
+                    <p class="text-light fs-6">The best global car sharing marketplace</p>
+                    <small class="text-light text-wrap text-center" style="width: 17rem;">Have a car? Earn money as a
+                        host. Rent your dream car as a guest.</small>
+                </div>
+
+            </div>
+
+            <div class="col-md-6  right_contact_box">
+                <div class="row align-items-center">
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label fw-medium">Name⁎</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Enter Your Name⁎">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputEmail" class="form-label fw-medium">Email⁎</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Email⁎">
+                        </div>
+
+                        <label for="floatingTextarea2" class="fw-medium">Meassage⁎</label>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Enter Your Meassage⁎" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Enter Your Meassage⁎</label>
+                        </div>
+
+                        <label for="" class="fw-semibold">Driving License File Attachment⁎</label>
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                I agree to the Terms and Privacy Policy
+                            </label>
+                        </div>
+                        <div class="input-group mb-2">
+                            <button class="btn btn-lg btn-dark w-100  fs-6">Sign Up</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

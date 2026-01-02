@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Car Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Nav-Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Dri<span class="text-danger">vee</span></a>
+
+            <!-- Toggol Button -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header text-light ">
+                    <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">Dri<span
+                            class="text-danger">vee</span></h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none border-0"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Hosting
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="car_hosting.html">Car Hosting</a></li>
+                                <li><a class="dropdown-item" href="bike_hosting.html">Bike Hosting</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-light" href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="create_account.html">Create Account</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    
+                    <!-- Image -->
+                    <div class="image">
+                        <a href="dashboard-option.html">
+                            <div class="mt-1"><img src="Assets/image/boy.jpg" alt="" class="img-fluid rounded-circle"
+                                    ></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="rent-car-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="fw-bold text-light text-center">Rent A Car
+                        Rent Your Freedom</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <div class="container booking-area shadow p-4 mb-5 bg-body-tertiary rounded d-flex justify-content-around">
+        <form action="" class="row">
+            <div class="col-lg mb-3 mb-lg-0">
+                <div class="d-flex border rounded">
+                    <input type="text" class="form-control border-0" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass mx-4 my-3"></i>
+                </div>
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+                <div class="border rounded d-flex">
+                    <input type="text" class="form-control border-0" placeholder="Price">
+                    <i class="fa-solid fa-angle-down mx-4 my-3"></i>
+                </div>
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+                <div class="border rounded d-flex">
+                    <input type="text" class="form-control border-0" placeholder="Time Duration">
+                    <i class="fa-solid fa-angle-down mx-4 my-3"></i>
+                </div>
+            </div>
+
+            <div class="col-lg mb-3 mb-lg-0">
+                <div class="border rounded d-flex">
+                    <input type="text" class="form-control border-0" placeholder="Brand">
+                    <i class="fa-solid fa-angle-down mx-4 my-3"></i>
+                </div>
+            </div>
+            <div class="col-lg mb-3 mb-lg-0">
+                <input type="text" class="form-control" placeholder="Filter">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Car Store-->
+    <section class="container my-5">
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent8.jpg" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent2.avif" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent3.jpeg" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4-->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent4.jpg" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent7.avif" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent6.webp" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent5.webp" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent1.jpeg" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/image/car-rent9.webp" class="card-img-top img-fluid" style="height: 28vh;"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeep Renegade</h5>
+
+                        <div class="table-responsive ">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Seats:4</td>
+                                        <td>Horespower:500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Luggage:4</td>
+                                        <td>Engine:3000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Doors:4</td>
+                                        <td>Drive:4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fuel:Petrol</td>
+                                        <td>Type:Hatchback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">$56</td>
+                                        <td><a href="car_booking.html"><button
+                                                    class="bg-dark text-light rounded px-2 py-1">Rent
+                                                    Car</button></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="Contact" class="footer-wrapper mt-5 mt-md-0 pb-0">
+        <div class="container-fluid pb-3 bg-dark">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mt-4">
+                    <a class="navbar-brand fw-bold fs-5" style="color: white;" href="#">Dri<span
+                            class="text-danger">vee</span></a>
+                    <p class="ps-0">Is just a Drivee ride away. Take control of your journey today
+                    </p>
+                    <div class="contact-info">
+                        <ul class="social-network d-flex align-items-center p-0">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-4">
+                    <h5>About Company</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Fee Policy</a></li>
+                        <li><a href="#">privacy Policy</a></li>
+                        <li><a href="#">term and Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mt-4">
+                    <h5 class="mx-4">City</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">Dhaka</a></li>
+                        <li><a href="#">Kolkata</a></li>
+                        <li><a href="#">Kulna</a></li>
+                        <li><a href="#">Borishal</a></li>
+                        <li><a href="#">Contai</a></li>
+                        <li><a href="#">RongPur</a></li>
+                        <li><a href="#">Chittagong</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mt-4">
+                    <h5>Vehicle Types</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">Car</a></li>
+                        <li><a href="#">Bike</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="Assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

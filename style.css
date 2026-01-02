@@ -1,0 +1,582 @@
+/* navbar */
+nav .container .sidebar .offcanvas-body .image img {
+    width: 3vw;
+    height: 7vh;
+}
+hr{
+    background-color: #555;
+    padding: 1px;
+}
+
+.main {
+    background: url(Assets/image/car.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 99vh;
+    background-position: 50% 50%;
+}
+
+.main h1 {
+    font-size: 50px;
+    margin: auto;
+    font-weight: 700;
+    color: rgb(253, 251, 251);
+    margin-top: 26%;
+}
+
+.main .btn1 {
+    margin-top: 20px;
+    color: white;
+}
+
+/* Booking Section */
+.booking-area {
+    background-color: white;
+    margin-top: -4rem;
+    /* padding: 3.125rem 1.875rem; */
+    z-index: 99;
+    position: relative;
+}
+
+.blog-wrapper .blog-content {
+    margin: -5rem 0 0 4.375rem;
+    box-shadow: 0 .125rem .25rem rgb(48, 45, 47);
+}
+
+.choose {
+    box-shadow: 0 .125rem .25rem rgb(48, 45, 47);
+}
+
+/* Show vehicle Section */
+.show-vehicel .vehicels {
+    margin-left: 13rem;
+    margin-top: 6rem;
+    box-shadow: 0 .125rem .25rem rgb(48, 45, 47);
+    width: 25rem;
+}
+
+
+/* Customer Feedback */
+
+.feedback-wrapper .feedback-items {
+    position: relative;
+    overflow: hidden;
+}
+
+.feedback-wrapper .feedback-items img {
+    width: 100%;
+    transition: all 400ms ease-in 0s;
+}
+
+.feedback-wrapper .feedback-items:hover img {
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.feedback-wrapper .feedback-items::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 1;
+    transition: all 400ms ease-in 0s;
+}
+
+.feedback-wrapper .feedback-items:hover::before {
+    opacity: 0.5;
+}
+
+.feedback-wrapper .feedback-item-wrap {
+    position: absolute;
+    left: 1.875rem;
+    right: 1.875rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.feedback-wrapper .feedback-items .feedback-content {
+    border: 0.125rem solid white;
+    padding: 5rem 1.87rem;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: all 500ms ease-in 0s;
+    opacity: 0;
+}
+
+.feedback-wrapper .feedback-items:hover .feedback-content {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+}
+
+/* Swiper */
+.swiper{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+}
+.swiper-wrapper{
+    background-color: #555;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Footer Section */
+.footer-wrapper h5 {
+    color: white;
+    margin-bottom: 1.25rem;
+}
+
+.footer-wrapper ul li {
+    margin-bottom: .5rem;
+    list-style: none;
+}
+
+.footer-wrapper .contact-info li a {
+    color: #caa169;
+}
+
+.footer-wrapper .link-widget li a,
+.footer-wrapper p {
+    color: gray;
+    font-size: .875rem;
+    padding-left: 1.5rem;
+    position: relative;
+    transform: all 0.3s ease-out 0s;
+}
+
+.footer-wrapper .link-widget li a::before {
+    content: "";
+    position: absolute;
+    left: 0.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-wrapper .link-widget li a:hover {
+    color: #bc7d25;
+    margin-left: .625rem;
+}
+
+.footer-wrapper .social-network a {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin: .5rem;
+    line-height: 2rem;
+    font-size: .875rem;
+    display: inline-block;
+    border: .25rem;
+    border: .125rem solid gray;
+    text-align: center;
+    border-radius: 100%;
+    transition: all 0.3s cubic-bezier(0.64, 0.045, 0.355, 1);
+}
+
+.footer-wrapper .social-network a:hover {
+    background-color: #99130b;
+    border-color: #99130b;
+    color: white;
+    transform: translateY(-0.1875rem);
+    box-shadow: 0.625rem .9375rem rgb(0 0 0/ 10%);
+}
+
+.accordian-button {
+    border: none;
+    color: gray;
+    border-radius: 8px;
+}
+
+.accordian-button:hover {
+    color: black;
+}
+
+
+
+/* Rent_Car Page */
+.rent-car-main {
+    background: url(Assets/image/car-rent.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-position: 50% 50%;
+}
+
+.rent-car-main .row h1 {
+    margin-top: 40vh;
+    margin-left: 28vh;
+}
+
+
+/* Rent_Bike Page */
+.rent_bike_main {
+    background: url(Assets/image/bike_hosting1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    background-position: 50% 50%;
+}
+
+.rent_bike_main .row h1 {
+    margin-top: 40vh;
+    margin-left: 28vh;
+}
+
+/* Car_hosting Page */
+.easy_onboarding .right_side_card {
+    width: 30rem;
+}
+
+main .left-sideow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.left-side-col .contents {
+    padding: 0px 30px;
+    border-left: 2px solid #bababa;
+}
+
+.left-side-col .contents .box {
+    position: relative;
+    padding: 20px;
+    /* border: 1px solid #eaeaea; */
+    /* background-color: white; */
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+.left-side-col .contents .box::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 10;
+    background-color: #11a372;
+    border: 2px solid white;
+}
+
+.refer_friend .row .left_side {
+    width: 38rem;
+}
+
+
+/* Bike_booking Page */
+.notes .bike_note {
+    width: 45vw;
+}
+
+
+/* Image Upload page */
+.book_section .card {
+    width: 28rem;
+}
+
+
+/* Customer dashboard */
+.customer_dashboard {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 1.5em;
+    grid-template-areas:
+        "box-1 box-2 box-3 box-4"
+        "box-1 box-5 box-5 box-5"
+        "box-1 box-5 box-5 box-5";
+}
+
+.dashboard_box {
+    /* background-color: antiquewhite; */
+    border: 1px solid black;
+    box-shadow: 0.3rem .2rem rgba(7, 7, 7, 0.1);
+    border-radius: 5px;
+}
+
+.customer_dashboard .dashboard_box img {
+    margin-top: 13vh;
+    width: 90px;
+    height: 90px;
+    margin-left: 3rem;
+    border: 3px solid black;
+}
+
+.customer_dashboard .dashboard_box .navigation ul li:hover {
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.customer_dashboard .dashboard_box .navigation ul li:hover a {
+    color: white;
+}
+
+.customer_dashboard .navigation ul {
+    list-style: none;
+}
+
+.customer_dashboard .navigation ul li {
+    padding: 10px 0px;
+}
+
+.customer_dashboard .navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard_box .table-responsive td button {
+    color: white;
+    /* background-color: #11a372; */
+}
+
+.dashboard_box .table-responsive td button:hover {
+    background-color: #067b31;
+    color: black;
+}
+
+.dashboard_box .table-responsive td.cancel_button:hover {
+    background-color: rgb(129, 14, 14);
+}
+
+.dashboard_box .table tr td {
+    text-align: center;
+}
+
+
+/* Dashboard Option Page */
+.map iframe {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 1.5em;
+    width: 87vw;
+    height: 300px;
+}
+
+/* Profile Option Page */
+.profile_box {
+    margin-bottom: 2em;
+    display: grid;
+    gap: 1.5em;
+    grid-template-areas:
+        "box-1 box-2 box-2 box-2"
+        "box-1 box-2 box-2 box-2"
+        "box-1 box-3 box-3 box-3"
+        "box-1 box-4 box-4 box-4";
+}
+
+/* Order Page */
+.order_section {
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 1.5em;
+    grid-template-areas:
+        "box-1 box-2 box-2 box-2"
+        "box-1 box-3 box-3 box-3"
+        "box-1 box-3 box-3 box-3"
+        "box-1 box-4 box-4 box-4";
+}
+
+
+/* Insurance Page */
+.insurance_container {
+    background-size: cover;
+    position: relative;
+}
+
+.insurance_container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.insurance_container .policy {
+    position: absolute;
+    margin-left: 24vw;
+    margin-top: 10vh;
+    top: 0;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.policy {
+    line-height: 2;
+}
+
+/* Sign Out Page */
+.sign_out p {
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+
+/* Create Account PAge */
+.box-area {
+    width: 930px;
+}
+
+.left_box {
+    background: url(Assets/image/create-account.png);
+}
+
+.left_box::before {
+    border-radius: 7px;
+}
+
+.left_box .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.right_box {
+    padding-top: 20px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.right_contact_box form {
+    padding-left: 30px;
+}
+
+
+/* Contact PAge */
+.contact_left_box {
+    background: url(Assets/image/contact.jpg);
+}
+
+
+@media only screen and (min-width:200px) and (max-width:575px) {
+
+    /* navbar */
+    nav .container .sidebar .offcanvas-body .image img {
+        width: 9vw;
+        height: 7vh;
+    }
+
+    nav .sidebar {
+        background-color: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(10px);
+    }
+
+    /* Hero Section */
+    .main h1 {
+        font-size: 5vh;
+        margin-bottom: 2vh;
+    }
+
+    .show-vehicel .vehicels {
+        margin-left: 0rem;
+        margin-top: 0rem;
+
+    }
+
+    .page-picture {
+        margin-top: 5vh;
+    }
+
+    .left-side-col .contents {
+        padding: 0px 30px;
+
+    }
+
+    /* Rent Car page */
+    .rent-car-main  .row h1 {
+        margin-top: 40vh;
+        margin-left: 5vh;
+    }
+
+    /* Rent Bike Page */
+    .rent_bike_main .row h1 {
+        margin-top: 40vh;
+        margin-left: 5vh;
+    }
+
+    /* Show Vehicle Section */
+    .show-vehicel .vehicels {
+        margin-left: 0;
+        width: 24rem;
+    }
+
+    /* Local service We Provide */
+    .local_service .img-container img {
+        display: none;
+    }
+
+    .local_service .img-container p {
+        display: none;
+    }
+
+    /* car Hosting Page */
+    .easy_onboarding .right_side_card {
+        width: 24rem;
+    }
+
+
+    /* Customer dashboard */
+    .customer_dashboard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Bike_booking Page */
+    .notes .bike_note {
+        width: 80vw;
+    }
+
+
+    /* Image Upload page */
+    .book_section .card {
+        width: 23rem;
+    }
+
+    /* Customer Dsahboard */
+    .customer_dashboard .dashboard_box img {
+        margin-left: 30vw;
+    }
+
+    /* Insurance Page */
+    .insurance_container .policy {
+        margin-top: 18vh;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    /* Create Account Page */
+
+    .box-area {
+        margin: 0 10px;
+    }
+
+    .left_box .content{
+        display: none;
+    }
+
+    .right_box {
+        padding: 20px;
+    }
+
+}

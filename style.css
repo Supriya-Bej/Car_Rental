@@ -112,23 +112,6 @@ hr{
     transform: scale3d(1, 1, 1);
 }
 
-/* Swiper */
-.swiper{
-    height: 100%;
-    width: 100%;
-    background-color: #333;
-    padding: 10px;
-}
-.swiper-wrapper{
-    background-color: #555;
-}
-.swiper-slide{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 
 
 /* Footer Section */
@@ -216,7 +199,15 @@ hr{
     margin-top: 40vh;
     margin-left: 28vh;
 }
-
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* z-index: 2; */
+    box-shadow: 0 4px 8px rgba(79, 79, 79, 0.2);
+}
+.card:hover{
+    transform: scale(1.03s);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
 
 /* Rent_Bike Page */
 .rent_bike_main {
